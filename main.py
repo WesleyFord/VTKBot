@@ -79,4 +79,4 @@ async def voteToKick(message):
 
 
 
-client.run() //You must put a bot API key from discord here
+client.run() #You must put a bot API key from discord here
