@@ -40,7 +40,7 @@ async def voteToKick(message):
     else:
         userToKick = mention[0] 
         votedlist = []
-        votes = 0
+        votes = 1
         botMessage = await message.channel.send("Vote to Kick Initiated: 1/4")
         await botMessage.add_reaction('👞')
         endtime = time.time() + (60 * 5)
